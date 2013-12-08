@@ -16,6 +16,8 @@
 		C29CA5BD1854BD2E009FFEB5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C29CA5BC1854BD2E009FFEB5 /* Default.png */; };
 		C29CA5BF1854BD2E009FFEB5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C29CA5BE1854BD2E009FFEB5 /* Default@2x.png */; };
 		C29CA5C11854BD2E009FFEB5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C29CA5C01854BD2E009FFEB5 /* Default-568h@2x.png */; };
+		C29CA5C81854BD88009FFEB5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29CA5C71854BD88009FFEB5 /* MainStoryboard.storyboard */; };
+		C29CA5CB1854BEAF009FFEB5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29CA5CA1854BEAF009FFEB5 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		C29CA5BC1854BD2E009FFEB5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C29CA5BE1854BD2E009FFEB5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C29CA5C01854BD2E009FFEB5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C29CA5C71854BD88009FFEB5 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = ../MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C29CA5C91854BEAF009FFEB5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C29CA5CA1854BEAF009FFEB5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +83,12 @@
 		C29CA5B01854BD2E009FFEB5 /* StoryboardOne */ = {
 			isa = PBXGroup;
 			children = (
+				C29CA5C71854BD88009FFEB5 /* MainStoryboard.storyboard */,
 				C29CA5B91854BD2E009FFEB5 /* AppDelegate.h */,
 				C29CA5BA1854BD2E009FFEB5 /* AppDelegate.m */,
 				C29CA5B11854BD2E009FFEB5 /* Supporting Files */,
+				C29CA5C91854BEAF009FFEB5 /* MainViewController.h */,
+				C29CA5CA1854BEAF009FFEB5 /* MainViewController.m */,
 			);
 			path = StoryboardOne;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 				C29CA5BD1854BD2E009FFEB5 /* Default.png in Resources */,
 				C29CA5BF1854BD2E009FFEB5 /* Default@2x.png in Resources */,
 				C29CA5C11854BD2E009FFEB5 /* Default-568h@2x.png in Resources */,
+				C29CA5C81854BD88009FFEB5 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +175,7 @@
 			files = (
 				C29CA5B71854BD2E009FFEB5 /* main.m in Sources */,
 				C29CA5BB1854BD2E009FFEB5 /* AppDelegate.m in Sources */,
+				C29CA5CB1854BEAF009FFEB5 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
